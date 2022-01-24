@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'first_project';
+  title = 'Day 1 Workshop';
+  myNumber: number;
+    constructor(){
+      this.myNumber= 123;
+    }
+
 }
